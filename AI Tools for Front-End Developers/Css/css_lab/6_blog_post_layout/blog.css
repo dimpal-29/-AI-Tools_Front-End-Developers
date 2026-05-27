@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 10px;
+}
+
+.blog-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.blog-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.blog-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.blog-content {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 15px;
+    }
+
+    .blog-title {
+        font-size: 22px;
+    }
+
+    .blog-subtitle {
+        font-size: 18px;
+    }
+
+    .blog-content {
+        font-size: 15px;
+    }
+}
